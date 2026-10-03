@@ -1,0 +1,21 @@
+{
+  "name": "palette",
+  "version": "0.1.0",
+  "description": "Pi's color palettes for Codex: custom syntax themes, favorites, import/export and optional account sync.",
+  "author": { "name": "prjct", "url": "https://prjct.app" },
+  "homepage": "https://palette.prjct.app",
+  "repository": "https://github.com/prjct-app/codex-plugins",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Palette",
+    "shortDescription": "Themes and your Palette library in Codex",
+    "longDescription": "Use the same 34 palettes as Pi, add your own, save favorites and connect to palette.prjct.app on demand. Codex CLI uses its native /theme picker for syntax preview. Desktop color settings are provided as a recipe to apply in Appearance.",
+    "developerName": "prjct",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": ["Show my palettes", "Connect my Palette account", "Use the Nord syntax theme"],
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}

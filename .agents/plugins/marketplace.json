@@ -1,0 +1,14 @@
+{
+  "name": "prjct-codex",
+  "interface": { "displayName": "prjct for Codex" },
+  "plugins": [
+    {
+      "name": "palette",
+      "source": { "source": "local", "path": "./" },
+      "description": "Pi's palettes for Codex: native syntax themes, favorites and optional library sync.",
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity",
+      "interface": { "displayName": "Palette" }
+    }
+  ]
+}

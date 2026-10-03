@@ -1,0 +1,9 @@
+{
+  "name": "@prjct.app/codex-palette",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "repository": { "type": "git", "url": "https://github.com/prjct-app/codex-plugins.git" },
+  "engines": { "node": ">=22.19.0" },
+  "scripts": { "test": "node --test tests/*.test.mjs", "build:themes": "node scripts/build-themes.mjs" }
+}
